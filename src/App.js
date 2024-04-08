@@ -9,14 +9,14 @@ function App() {
         <p>
           This is edidudedo's first homepage release. (Please look forward to the next release)
         </p>
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
     </div>
   );
