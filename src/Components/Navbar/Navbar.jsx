@@ -37,7 +37,7 @@ const Navbar = () => {
                 </div>
             </div>
             <div className = "navbar-sign">
-                <FaGlobe color = "#fff" size = {27} onClick ={() => setToggleMenu(!toggleMenu)} />
+                <FaGlobe color = "#fff" size = {21} onClick ={() => setToggleMenu(!toggleMenu)} />
                 {toggleMenu && (
                     <div className = "navbar-menu_container scale-up-center">
                         <div className = "navbar-menu_container-links">
