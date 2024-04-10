@@ -1,17 +1,27 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.bcbb5e13.css",
-    "main.js": "/homepage/static/js/main.c21ceb41.js",
+    "main.css": "/homepage/static/css/main.89cffe8e.css",
+    "main.js": "/homepage/static/js/main.a3fa9375.js",
     "static/js/453.1eb5cc81.chunk.js": "/homepage/static/js/453.1eb5cc81.chunk.js",
     "static/media/Profile.jpg": "/homepage/static/media/Profile.259d32b654e27e767382.jpg",
+    "static/media/Profile2.jpg": "/homepage/static/media/Profile2.53ffed173c67045882ae.jpg",
+    "static/media/Nationality.png": "/homepage/static/media/Nationality.15614826fddb3f1b82ed.png",
+    "static/media/Hobbies.png": "/homepage/static/media/Hobbies.34e0532c5667f9128715.png",
+    "static/media/Age.png": "/homepage/static/media/Age.716319bc2016776eac91.png",
+    "static/media/Interest.png": "/homepage/static/media/Interest.20b6f3178b502547d27b.png",
+    "static/media/Games.png": "/homepage/static/media/Games.c64b312dfeb9531b7952.png",
+    "static/media/Gym.png": "/homepage/static/media/Gym.9440f644931664319e35.png",
+    "static/media/Name.png": "/homepage/static/media/Name.33e7df0963941edbeb70.png",
+    "static/media/Studying.png": "/homepage/static/media/Studying.259ca9b253d94cdc2c66.png",
+    "static/media/Music.png": "/homepage/static/media/Music.6b6443ba7c8418b8552f.png",
     "static/media/logo.svg": "/homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/homepage/index.html",
-    "main.bcbb5e13.css.map": "/homepage/static/css/main.bcbb5e13.css.map",
-    "main.c21ceb41.js.map": "/homepage/static/js/main.c21ceb41.js.map",
+    "main.89cffe8e.css.map": "/homepage/static/css/main.89cffe8e.css.map",
+    "main.a3fa9375.js.map": "/homepage/static/js/main.a3fa9375.js.map",
     "453.1eb5cc81.chunk.js.map": "/homepage/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcbb5e13.css",
-    "static/js/main.c21ceb41.js"
+    "static/css/main.89cffe8e.css",
+    "static/js/main.a3fa9375.js"
   ]
 }
