@@ -1,0 +1,89 @@
+.about {
+    display : flex;
+}
+
+.about-content{
+    flex : 1;
+    display : flex;
+    justify-content : center;
+    align-items : flex-start;
+    flex-direction : column;
+
+    margin-left : 5rem;
+}
+
+.about-content h1{
+    font-family : var(--font-family);
+    font-weight : 800;
+    color : rgb(48, 48, 48);
+    font-size : 62px;
+    line-height : 75px;
+    letter-spacing: -0.04em;
+}
+
+.about-content p {
+    font-family : var(--font-family);
+    font-style : normal;
+    font-weight : normal;
+    font-size : 20px;
+    line-height : 27px;
+    color : rgb(141, 141, 141);
+
+    margin-top : 1.5rem;
+}
+
+
+.about-image {
+    flex : 1;
+    display : flex;
+    justify-content : center;
+
+    align-items : center;
+}
+
+.about-image img{
+    width : 100%;
+    height : 100%;
+}
+
+.about-table table { 
+    margin-bottom : 20px;
+    
+}
+.about-table span{
+    font-family : var(--font-family);
+    font-size: 20px;
+    padding-right : 20px;
+    padding-top : 10px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 27px;
+    
+}
+
+.item-row span {
+    display: inline-block;
+    margin-right: 5px; 
+  }
+  
+.item-label {
+    width: 180px; 
+}
+
+.item-value img {
+    margin-left : 10px;
+}
+  
+
+.about-table img{
+    height : 20px;
+    margin-right :10px;
+}
+.about-title{
+    margin-bottom : 20px;
+}
+
+.about-tag_group{
+    margin-top : 5px;
+    margin-left : 5px; 
+}
