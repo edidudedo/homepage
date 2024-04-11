@@ -3,17 +3,24 @@ import './Footer.css'
 
 import Profile3 from '../../Assets/Profile3.jpg'
 import ReactLogo from '../../Assets/ReactLogo.png'
-import { Blogger, Facebook, Flaticon, Github, Instagram, Linkedin, Twitter } from '../../Assets/Footer'
+import { Blogger, Facebook, Flaticon, Github, Instagram, Linkedin, Twitter, Gmail } from '../../Assets/Footer'
 
 const Footer = () => {
     return(
         <div className = "footer section__padding">
             <div className = "footer-links">
                 <div className = "footer-links_logo">
-                    <img src= {Profile3} alt = "logo" />
+                    <img src= {Profile3} alt = "profile3" />
                 </div>
                 <div className = "footer-links_div">
                     <h4>Contact Information</h4>
+                    <span>
+                        <img src= {Gmail} alt = "gmail" /> 
+                        eduardoiglesius101@gmail.com
+                    </span>
+                </div>
+                <div className = "footer-links_div">
+                    <h4>Professional Platform</h4>
                     <a href="https://github.com/edidudedo" target = "_blank">
                         <img src= {Github} alt = "github" /> 
                         Edidudedo
@@ -28,7 +35,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className = "footer-links_div">
-                    <h4>Social Media</h4>
+                    <h4>Personal Platform</h4>
                     <a href="https://www.facebook.com/eduardo.iglesius/" target = "_blank">
                         <img src= {Facebook} alt = "facebook" /> 
                         eduardo.iglesius

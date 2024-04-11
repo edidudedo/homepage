@@ -66,16 +66,7 @@ const AboutMe = () => {
                             )}
                         </div>
                 ))}
-            </div>
-
-
-
-
-            
-            
-                    
-                
-           
+            </div> 
         </div>
         </div>
     )

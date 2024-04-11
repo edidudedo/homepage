@@ -5,3 +5,4 @@ export { default as Github } from './github.png';
 export { default as Instagram } from './instagram.png';
 export { default as Linkedin } from './linkedin.png';
 export { default as Twitter } from './twitter.png';
+export { default as Gmail } from './gmail.png';

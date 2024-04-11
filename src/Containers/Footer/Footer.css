@@ -12,7 +12,6 @@
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
-    flex-wrap: wrap;
 
     width: 100%;
     text-align: left;
@@ -66,6 +65,18 @@
 }
 
 .footer-links_div a {
+    display : flex;
+    flex-direction : row;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    font-family: var(--font-family);
+    color: #fff;
+    margin: 0.5rem 0;
+    cursor: pointer;
+}
+
+.footer-links_div span {
     display : flex;
     flex-direction : row;
     align-items: center;
