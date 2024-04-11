@@ -30,8 +30,8 @@ const NewsItems = () => {
 
 const Home = () => {
     return(
-        <div className = "gpt3__header section__padding" id ="home">
-            <div className = "gpt3__header-content">
+        <div className = "header section__padding" id ="home">
+            <div className = "header-content">
                 <h1 className = "gradient__text">
                     Eduardo Iglesius
                 </h1>
@@ -42,7 +42,7 @@ const Home = () => {
                 <NewsItems />
 
             </div>
-            <div className = "gpt3__header-image">
+            <div className = "header-image">
                 <img src = { Profile } alt = "profile"/>
             </div>
                     

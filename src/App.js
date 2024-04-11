@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Navbar } from './Components';
-import { Home } from './Containers';
+import { Home, AboutMe } from './Containers';
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Navbar />
         <Home />
       </div>
+      <AboutMe />
     </div>
   );
 }
