@@ -65,8 +65,14 @@
     display: inline-block;
     margin-right: 5px; 
   }
+
+
   
 .item-label {
+    display :flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 180px; 
 }
 
