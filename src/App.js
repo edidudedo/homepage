@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Navbar } from './Components';
-import { Home, AboutMe, Footer, Achievements } from './Containers';
+import { Home, AboutMe, Footer, Achievements, Research } from './Containers';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
       </div>
       <AboutMe />
       <Achievements />
+      <Research / >
       <Footer />
     </div>
   );
