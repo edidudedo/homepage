@@ -1,17 +1,18 @@
-.research {
+.collabs {
     display : flex;
 }
 
-.research-content{
+.collabs-content{
     flex : 1;
     display : flex;
     justify-content : center;
     align-items : center;
     flex-direction : column;
+
     margin-left : 5rem;
 }
 
-.research-content h1{
+.collabs-content h1{
     font-family : var(--font-family);
     font-weight : 800;
     color : rgb(68, 50, 50);
@@ -23,19 +24,19 @@
     margin-bottom : 60px;
 }
 
-.research-content h1::after {
+.collabs-content h1::after {
     content: '';
     position: absolute;
     bottom: -20px;
     left: 0;
     width: 400%;
-    height: 0.5px; 
+    height: 1px; 
     background-color: rgb(48, 48, 48);
     left: 50%; 
     transform: translateX(-50%);
   }
 
-.research-content p {
+.collabs-content p {
     font-family : var(--font-family);
     font-style : normal;
     font-weight : normal;
@@ -47,34 +48,37 @@
 }
 
 
-.research-container {
+.collabs-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    overflow-x: auto; 
     width: 100%; 
+    max-width: 1200px; 
   }
   
-._research {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction : column;
+  .collab {
+    flex: none; 
     margin-right: 20px; 
-    text-align: center; 
+    text-align: left; 
     height : auto;
+    transition: transform 0.3s ease;
     margin-bottom : 10px;
-    width : 1000px;
-}
+    width : 300px;
+  }
+
+  .collab:hover {
+    transform: scale(1.05); 
+    
+  }
   
-  ._research iframe {
-    width: 560px; 
-    height: 315px; 
+  .collab img {
+    width: 300px; 
+    height: 180px; 
     display: block; 
     margin: 0 auto 10px; 
   }
   
 
-  .research-description {
+  .collab-description {
     font-family: var(--font-family); 
     color : grey;
     font-size: 16px;
@@ -83,45 +87,16 @@
     line-height: 27px;
 }
 
-.research-item-description {
-    text-align: left;
-    display: flex;
-    overflow-y: auto; 
-    width: 100%; 
-    max-height: 300px; 
-}
-
-.research-description span {
+.collab-description span {
     display: inline-block;
 }
 
 
-.research-item-label {
-    margin-top : 30px;
+.collab-item-label {
     width: 50px; 
 }
 
-.research-button-style {
-    display: inline-block;
-    padding: 8px 15px;
-    margin: 5px;
-    background-color: rgb(68, 50, 50);
-    color: white;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: right;
-  }
-
-.research-button { 
-    width:100%;
-    margin-top : 30px;
-    text-align: right;
+.collab-item-value {
+  margin-left :10px;
 }
-  
-.research-button-style:hover {
-    background-color: rgb(141, 141, 141);
-}
-
-
   

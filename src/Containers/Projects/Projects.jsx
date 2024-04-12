@@ -13,7 +13,7 @@ const Projects = () => {
         <div className = "projects section__padding" id ="projects">
             <div className = "projects-content">
                 <h1 className = "about-title">
-                    Projects
+                    My Little Projects
                 </h1>
                 <div class="projects-container">
                     {ProjectList.map(item => (
