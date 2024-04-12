@@ -64,13 +64,14 @@
     height : auto;
     margin-bottom : 10px;
     width : 1000px;
+    font-family : var(--font-family);
 }
   
   ._research iframe {
     width: 560px; 
     height: 315px; 
     display: block; 
-    margin: 0 auto 10px; 
+    margin: 30px auto 10px; 
   }
   
 
