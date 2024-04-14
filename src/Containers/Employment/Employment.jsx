@@ -1,31 +1,30 @@
 import React from 'react'
-import './Education.css'
+import './Employment.css'
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import {ReactComponent as SchoolIcon} from '../../Assets/school.svg'
+import {ReactComponent as WorkIcon} from '../../Assets/work.svg'
 
-import educationElements from './educationElements';
+import employmentElements from './employmentElements';
 
 
 
-const Education = () => {
+const Employment = () => {
     return(
-        <div className = "education section__padding" id = "education">
+        <div className = "employment section__padding" id = "employment">
             <h1>
-                Education
+                Employment
             </h1>
             <VerticalTimeline lineColor="#443232">
                 {
-                    educationElements.map(element => {
+                    employmentElements.map(element => {
                         return (
                             <VerticalTimelineElement
                                 key ={element.key}
                                 date = {element.date}
-                                dateClassName='education-date'
+                                dateClassName='employment-date'
                                 iconStyle={{ background: "#C6C6C6"}}
-                                icon={<SchoolIcon />}
+                                icon={<WorkIcon />}
                                 contentArrowStyle={{ borderRightColor: "#d3d3d3"}}
-                                
                             >
                                 <h3 className="vertical-timeline-element-title">
                                     {element.title}
@@ -33,7 +32,7 @@ const Education = () => {
                                 <h5 className="vertical-timeline-element-subtitle">
                                     {element.location}
                                 </h5>
-                                <p class="education-description">{element.description}</p>
+                                <p class="employment-description">{element.description}</p>
                             </VerticalTimelineElement>
                         )
                     })
@@ -43,4 +42,4 @@ const Education = () => {
     )
 }
 
-export default Education
+export default Employment
