@@ -1,4 +1,4 @@
-let timelineElements = [
+let educationElements = [
   {
     id: 1,
     title: "SDK Immanuel Pontianak",
@@ -58,4 +58,4 @@ let timelineElements = [
   },
 ];
 
-export default timelineElements;
+export default educationElements;
