@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import { Navbar } from './Components';
+import { Navbar, TopButton } from './Components';
 import { Home, AboutMe, Footer, Achievements, Research, Projects, Collabs, Education, Employment } from './Containers';
 
 function App() {
   return (
     <div clasName = "App">
+      <TopButton />
       <div className = "gradient__bg">
         <Navbar />
         <Home />

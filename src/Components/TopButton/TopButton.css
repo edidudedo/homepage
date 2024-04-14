@@ -1,0 +1,51 @@
+.scroll-to-top {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    padding: 10px 15px; 
+    width : 50px;
+    height : 50px;
+    z-index: 1000; 
+    cursor: pointer; 
+    background-color: #3498db; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    outline: none; 
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.3); 
+  }
+  
+  .scroll-to-top:hover {
+    background-color: #2980b9; /* Darker background on hover */
+  }
+  
+  /* Optional: hide the button if the page is near the top */
+  /* You would need to add JavaScript to toggle this class based on scroll position */
+  .scroll-to-top.hidden {
+    display: none;
+  }
+.scroll-to-top {
+  position: fixed; /* Fixed position */
+  bottom: 20px; /* 20px from the bottom */
+  right: 20px; /* 20px from the right */
+  padding: 10px 15px; /* Padding for the button */
+  z-index: 1000; /* Ensure it's above other elements */
+  cursor: pointer; /* Pointer cursor on hover */
+  background-color: #3498db; /* Background color */
+  color: white; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  outline: none; /* Remove outline */
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.3); /* Shadow for button */
+}
+
+.scroll-to-top:hover {
+  background-color: #2980b9; /* Darker background on hover */
+}
+
+/* Optional: hide the button if the page is near the top */
+/* You would need to add JavaScript to toggle this class based on scroll position */
+.scroll-to-top.hidden {
+  display: none;
+}
+  

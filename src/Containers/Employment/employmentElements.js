@@ -4,8 +4,8 @@ let employmentElements = [
     title: "Indonesian-English-Japanese Translator",
     location: "Mori Kosan Co,. Ltd. Osaka, Japan",
     description:
-      "ranslating article, news, SNS caption between Indonesian, English, and Japanese language only for the short term becuase of the tight university schedule.",
-    date: "March 2022 - April 2023",
+      "Translating article, news, SNS caption between Indonesian, English, and Japanese language only for the short term becuase of the tight university schedule.",
+    date: "March 2022 - April 2022",
   },
   {
     id: 2,

@@ -30,7 +30,7 @@ const Navbar = () => {
       </>
     )
     return(
-        <div className = "navbar">
+        <div className = "navbar" id = "navbar">
             <div className = "navbar-links"> 
                 <div className = "navbar-links_container">
                     <Menu />

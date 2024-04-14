@@ -5,15 +5,16 @@ import Profile from '../../Assets/Profile.jpg'
 
 const NewsItems = () => {
     const items = [
-        { year: 2024, name: 'Apple, Banana, Banana, Banana, Banana, Banana, Banana, Banana, Banana, Banana, Banana' },
-        { year: 2024, name: 'Banana' },
-        { year: 2024, name: 'Cherry' },
-        { year: 2024, name: 'A' },
-        { year: 2023, name: 'A' },
-        { year: 2023, name: 'A' },
-        { year: 2022, name: 'A' },
-        { year: 2021, name: 'A' },
-        { year: 2021, name: 'A' },
+        { year: 2024, name: 'Started master degree in Osaka University' },
+        { year: 2024, name: 'Graduated from Osaka University (Bachelor Degree).' },
+        { year: 2024, name: 'Received MEXT Scholarship for master' },
+        { year: 2023, name: 'Started working as Web Developer in C-Channel Japan' },
+        { year: 2023, name: 'Started working as Indonesian teacher in Hello Sensei' },
+        { year: 2023, name: 'Started working as translator in Mori Kosan' },
+        { year: 2022, name: 'Became Head of Internal in PPI-ON' },
+        { year: 2021, name: 'Became member of Internal in PPI-ON' },
+        { year: 2020, name: 'Started bachelor degree in Osaka University' },
+        { year: 2019, name: 'Started japanese school in Japanese Language Center for International Students' },
       ];
     return (
         <div className = "Home-news">
