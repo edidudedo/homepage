@@ -1,19 +1,19 @@
 import React from 'react'
 import './Collab.css'
-import { Homepage } from '../../Assets/Projects'
+import { Maze } from '../../Assets/Collab'
 
 
 
 
 const Collabs = () => {
     const CollabList = [
-        {imgSrc : Homepage, imgLink : "https://edidudedo.github.io/homepage/",  name : "Homepage", year : "2024", desc  : "My own homepage, used as digital portofolio similar to LinkedIn. In this web, I will be sharing my achievements and various collabs that I made with my own style."},
+        {imgSrc : Maze, imgLink : "https://github.com/hiiragi589/vr_work_2022?tab=readme-ov-file",  name : "脱出迷路", year : "2022", desc  : "A 1v1 VR game between two players. One player plays the role of the Game Master, controlling the maze and its dynamics through a computer interface. The opposing player, immersed in a virtual reality environment, takes on the role of a player. The objective of the player is to escape the labyrinth by collecting keys and various items within the time limit, all while avoiding the traps set by the Game Master and evading monsters that lurk within. Credit to 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, "},
     ]
     return(
         <div className = "collabs section__padding" id ="collaboration">
             <div className = "collabs-content">
                 <h1 className = "about-title">
-                    Collab
+                    Collaboration
                 </h1>
                 <div class="collabs-container">
                     {CollabList.map(item => (
