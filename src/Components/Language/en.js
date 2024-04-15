@@ -31,6 +31,7 @@ const en ={
         nationality : "Nationality",
         occupation : "Occupation",
         hobby : "Hobby",
+        language : "Language",
         interest : "Interest",
         indonesia : "Indonesia",
         masterStudent : "Master Student"

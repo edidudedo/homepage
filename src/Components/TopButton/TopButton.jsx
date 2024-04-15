@@ -1,18 +1,21 @@
 import React from 'react';
-import './TopButton.css'; // Make sure to create this CSS file
+import './TopButton.css'; 
+import Home from '../../Assets/home.png'
 
 const ScrollToTopButton = () => {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // for smooth scrolling
+      behavior: 'smooth' 
     });
   };
-
   return (
-    <button onClick={scrollToTop} className="scroll-to-top">
-      ↑
-    </button>
+    <>
+      <button onClick={scrollToTop} className="scroll-to-top">
+        <img src={Home} alt="Home icon" />
+      </button>
+    </>
+    
   );
 };
 

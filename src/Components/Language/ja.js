@@ -31,6 +31,7 @@ const ja ={
         nationality : "国籍",
         occupation : "職業",
         hobby : "趣味",
+        language : "言語",
         interest : "興味",
         indonesia : "インドネシア",
         masterStudent : "大学院生"

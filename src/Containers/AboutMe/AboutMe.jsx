@@ -1,7 +1,7 @@
 import React from 'react'
 import './AboutMe.css'
 import Profile2 from '../../Assets/Profile2.jpg'
-import { Games, Gym, Indonesia, Hobbies, Interest, Name, Nationality, Studying, Age, Occupation, Music, Guitar, Keyboard } from '../../Assets/AboutMe'
+import { Games, Gym, Indonesia, Hobbies, Interest, Name, Nationality, Studying, Age, Occupation, Music, Guitar, Keyboard, Language } from '../../Assets/AboutMe'
 import Tag from '../../Components/Tag/Tag'
 
 import { LanguageContext } from '../../Components/Language/languageContext'
@@ -27,13 +27,19 @@ const AboutMe = () => {
         {key : "AR"},
         {key : "Game Development"},
     ]
+    const Languages = [
+        {key : "Indonesian"},
+        {key : "English"},
+        {key : "Japanese"},
+    ]
     const tableItems =  [
         {picture : Name, key : translations.aboutMe.name, item : "Eduardo Iglesius"},
         {picture : Age, key : translations.aboutMe.age, item : "24"},
         {picture : Nationality, key : translations.aboutMe.nationality, item : translations.aboutMe.indonesia, imgSrc : Indonesia},
         {picture : Occupation, key : translations.aboutMe.occupation, item : translations.aboutMe.masterStudent},
         {picture : Hobbies, key : translations.aboutMe.hobby, item2 : HobbyItems},
-        {picture : Interest, key : translations.aboutMe.interest, item2 : Interests}
+        {picture : Interest, key : translations.aboutMe.interest, item2 : Interests},
+        {picture : Language, key : translations.aboutMe.language, item2 :Languages},
     ]
 
     return(

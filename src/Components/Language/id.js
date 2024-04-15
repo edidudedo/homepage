@@ -31,6 +31,7 @@ const id ={
         nationality : "Kenegaraan",
         occupation : "Pekerjaan",
         hobby : "Hobi",
+        language : "Bahasa",
         interest : "Ketertarikan",
         indonesia : "Indonesia",
         masterStudent : "Mahasiswa S2"
