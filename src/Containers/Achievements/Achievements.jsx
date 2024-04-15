@@ -1,11 +1,11 @@
 import React from 'react'
 import './Achievements.css'
 import { Penghargaan, Penghargaan2, PenghargaanDll, Monbukagakusho } from '../../Assets/Achievements'
-
-
-
+import { useContext } from 'react';
+import { LanguageContext } from '../../Components/Language/languageContext';
 
 const Achievements = () => {
+    const { translations } = useContext(LanguageContext);
     const handleLinkClick = (e, imgLink) => {
         if (!imgLink) {
           e.preventDefault();
@@ -13,11 +13,11 @@ const Achievements = () => {
         }
       };
     const AchievementList = [
-        {imgSrc : Penghargaan2, imgLink : "",  name : "大阪大学基礎工学部賞", year : "2024", desc  : "An award issued by Osaka University, given to one outstanding student from the course who is currently enrolled in Osaka University"},
-        {imgSrc : Monbukagakusho, imgLink : "https://www.id.emb-japan.go.jp/sch_rs2025.html",  name : "MEXT Scholarship (Master)", year : "2024", desc  : "A scholarship funded by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT), supports foreign students studying in Japan. It covers tuition, provides a monthly stipend, and include travel expenses to and from Japan."},
-        {imgSrc : Penghargaan, imgLink : "https://www.celas.osaka-u.ac.jp/top-50-of-osaka-univ/", name : "大阪大学全学教育優秀賞", year : "2021", desc  : "An award issued by Osaka univeristy, Honored to students who excel in liberal arts education, focusing on one of the university's educational goals. It evaluates overall achievements including credits earned and academic performance. Annually, around 50 students out of 3000s students from across all faculties are selected, based on their accomplishments by the end of their second year, including those in the International College's English courses by their third year."},
-        {imgSrc : Monbukagakusho, imgLink : "https://www.id.emb-japan.go.jp/sch_gakubu2024.html",  name : "MEXT Scholarship (Bachelor)", year : "2019", desc  : "A scholarship funded by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT), supports foreign students studying in Japan. It covers tuition, provides a monthly stipend, and include travel expenses to and from Japan."},
-        {imgSrc : PenghargaanDll, imgLink : "",  name : "Other", year : "2009-2017", desc  : "Any other awards that I received during my elementary high school to senior high school which are too many to list individually, thus will only be shown from the picture."}
+        {imgSrc : Penghargaan2, imgLink : "",  name : "大阪大学基礎工学部賞", year : "2024", desc  : translations.achievements.gakubusho_desc},
+        {imgSrc : Monbukagakusho, imgLink : "https://www.id.emb-japan.go.jp/sch_rs2025.html",  name : "MEXT Scholarship (Master)", year : "2024", desc  : translations.achievements.mextMaster_desc},
+        {imgSrc : Penghargaan, imgLink : "https://www.celas.osaka-u.ac.jp/top-50-of-osaka-univ/", name : "大阪大学全学教育優秀賞", year : "2021", desc  : translations.achievements.tpbsho_desc},
+        {imgSrc : Monbukagakusho, imgLink : "https://www.id.emb-japan.go.jp/sch_gakubu2024.html",  name : "MEXT Scholarship (Bachelor)", year : "2019", desc  : translations.achievements.mextBach_desc},
+        {imgSrc : PenghargaanDll, imgLink : "",  name : "Other", year : "2009-2017", desc  : translations.achievements.other_desc}
     ]
     return(
         <div className = "achievements section__padding" id ="achievements">

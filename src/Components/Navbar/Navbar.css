@@ -26,6 +26,13 @@
     align-items : center;
 }
 
+.navbar-sign a{
+    display :flex;
+    justify-content: flex-end;
+    align-items : center;
+    cursor : pointer;
+}
+
 .navbar-links_container p, .navbar-sign p{
     color:#fff;
     font-family :var(--font-family);

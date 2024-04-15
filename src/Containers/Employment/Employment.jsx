@@ -4,15 +4,17 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import {ReactComponent as WorkIcon} from '../../Assets/work.svg'
 
-import employmentElements from './employmentElements';
-
-
+import EmploymentElements from './employmentElements';
+import { LanguageContext } from '../../Components/Language/languageContext';
+import { useContext } from 'react';
 
 const Employment = () => {
+    const { translations } = useContext(LanguageContext);
+    const employmentElements = EmploymentElements();
     return(
         <div className = "employment section__padding" id = "employment">
             <h1>
-                Employment
+                {translations.employment.employment}
             </h1>
             <VerticalTimeline lineColor="#443232">
                 {
