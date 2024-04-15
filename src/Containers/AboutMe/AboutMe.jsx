@@ -4,10 +4,12 @@ import Profile2 from '../../Assets/Profile2.jpg'
 import { Games, Gym, Indonesia, Hobbies, Interest, Name, Nationality, Studying, Age, Occupation, Music, Guitar, Keyboard } from '../../Assets/AboutMe'
 import Tag from '../../Components/Tag/Tag'
 
-
+import { LanguageContext } from '../../Components/Language/languageContext'
+import { useContext } from 'react'
 
 
 const AboutMe = () => {
+    const { translations } = useContext(LanguageContext)
     const HobbyItems = [
         {picture : Games, key : "Games"},
         {picture : Gym, key : "Gym"},
@@ -26,12 +28,12 @@ const AboutMe = () => {
         {key : "Game Development"},
     ]
     const tableItems =  [
-            {picture : Name, key : "Name", item : "Eduardo Iglesius"},
-            {picture : Age, key : "Age", item : "24"},
-            {picture : Nationality, key : "Nationality", item : "Indonesia", imgSrc : Indonesia},
-            {picture : Occupation, key : "Occupation", item : "Master Student"},
-            {picture : Hobbies, key : "Hobby", item2 : HobbyItems},
-            {picture : Interest, key : "Interest", item2 : Interests}
+        {picture : Name, key : translations.aboutMe.name, item : "Eduardo Iglesius"},
+        {picture : Age, key : translations.aboutMe.age, item : "24"},
+        {picture : Nationality, key : translations.aboutMe.nationality, item : translations.aboutMe.indonesia, imgSrc : Indonesia},
+        {picture : Occupation, key : translations.aboutMe.occupation, item : translations.aboutMe.masterStudent},
+        {picture : Hobbies, key : translations.aboutMe.hobby, item2 : HobbyItems},
+        {picture : Interest, key : translations.aboutMe.interest, item2 : Interests}
     ]
 
     return(
@@ -41,7 +43,7 @@ const AboutMe = () => {
             </div>
             <div className = "about-content">
                 <h1 className = "about-title">
-                    About Me
+                    {translations.aboutMe.aboutMe}
                 </h1>
                 
                 <div className = "about-table">

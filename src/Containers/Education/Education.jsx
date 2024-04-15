@@ -4,15 +4,19 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 import {ReactComponent as SchoolIcon} from '../../Assets/school.svg'
 
-import educationElements from './educationElements';
+import EducationElements from './educationElements';
+import { LanguageContext } from '../../Components/Language/languageContext';
+import { useContext } from 'react';
 
 
 
 const Education = () => {
+    const { translations } = useContext(LanguageContext);
+    const educationElements = EducationElements()
     return(
         <div className = "education section__padding" id = "education">
             <h1>
-                Education
+                {translations.education.education}
             </h1>
             <VerticalTimeline lineColor="#443232">
                 {

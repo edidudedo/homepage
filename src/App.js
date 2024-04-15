@@ -3,23 +3,29 @@ import './App.css';
 import { Navbar, TopButton } from './Components';
 import { Home, AboutMe, Footer, Achievements, Research, Projects, Collabs, Education, Employment } from './Containers';
 
+import { LanguageProvider } from './Components/Language/languageContext';
+
 function App() {
+
+
   return (
-    <div clasName = "App">
-      <TopButton />
-      <div className = "gradient__bg">
-        <Navbar />
-        <Home />
+    <LanguageProvider>
+      <div clasName = "App">
+        <TopButton />
+        <div className = "gradient__bg">
+          <Navbar />
+          <Home />
+        </div>
+        <AboutMe />
+        <Education />
+        <Employment />
+        <Achievements />
+        <Research />
+        <Projects />
+        <Collabs />
+        <Footer />
       </div>
-      <AboutMe />
-      <Education />
-      <Employment />
-      <Achievements />
-      <Research />
-      <Projects />
-      <Collabs />
-      <Footer />
-    </div>
+    </LanguageProvider>
   );
 }
 
