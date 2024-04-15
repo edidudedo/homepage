@@ -11,3 +11,4 @@ export { default as Hobbies } from './Hobbies.png';
 export { default as Music } from './Music.png';
 export { default as Guitar } from './Guitar.png';
 export { default as Keyboard } from './Keyboard.png';
+export { default as Language } from './language.png';
