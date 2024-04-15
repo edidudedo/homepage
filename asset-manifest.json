@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.cb3523fc.css",
-    "main.js": "/homepage/static/js/main.b3fbe670.js",
+    "main.css": "/homepage/static/css/main.dd9c5c5b.css",
+    "main.js": "/homepage/static/js/main.e964c76d.js",
     "static/js/453.1eb5cc81.chunk.js": "/homepage/static/js/453.1eb5cc81.chunk.js",
     "static/media/PenghargaanDll.jpg": "/homepage/static/media/PenghargaanDll.af1ba95dc1dc34bce762.jpg",
     "static/media/Profile3.jpg": "/homepage/static/media/Profile3.88b6e9321577bbd831fd.jpg",
     "static/media/Homepage.png": "/homepage/static/media/Homepage.95d3dad075f854306258.png",
     "static/media/Profile.jpg": "/homepage/static/media/Profile.259d32b654e27e767382.jpg",
     "static/media/Penghargaan2.jpg": "/homepage/static/media/Penghargaan2.88e1258af75fa0f21fb0.jpg",
+    "static/media/penghargaan.jpg": "/homepage/static/media/penghargaan.4e96a0892e67cc6df0fc.jpg",
     "static/media/Maze.png": "/homepage/static/media/Maze.d1edcc1a4b059364068e.png",
     "static/media/Profile2.jpg": "/homepage/static/media/Profile2.53ffed173c67045882ae.jpg",
     "static/media/Calculator.png": "/homepage/static/media/Calculator.26d880b880f30a6e787a.png",
     "static/media/To-Do-List.jpg": "/homepage/static/media/To-Do-List.a93906c87b6ddc8e616b.jpg",
     "static/media/ImageCropper.png": "/homepage/static/media/ImageCropper.449407aa5e30f173b1dc.png",
-    "static/media/penghargaan.jpg": "/homepage/static/media/penghargaan.fd228fe97bbc2d3dffd1.jpg",
     "static/media/Monbukagakusho.png": "/homepage/static/media/Monbukagakusho.d8dbe7c878ae90a82c50.png",
     "static/media/Nationality.png": "/homepage/static/media/Nationality.15614826fddb3f1b82ed.png",
     "static/media/twitter.png": "/homepage/static/media/twitter.8913ff031d52c42cca95.png",
@@ -22,6 +22,7 @@
     "static/media/github.png": "/homepage/static/media/github.5c08aa29dab2c3c5a7ca.png",
     "static/media/instagram.png": "/homepage/static/media/instagram.75e0546a6b5abe4c0506.png",
     "static/media/Interest.png": "/homepage/static/media/Interest.20b6f3178b502547d27b.png",
+    "static/media/language.png": "/homepage/static/media/language.32bc833f897cfb5b014c.png",
     "static/media/Games.png": "/homepage/static/media/Games.c64b312dfeb9531b7952.png",
     "static/media/Gym.png": "/homepage/static/media/Gym.9440f644931664319e35.png",
     "static/media/blogger.png": "/homepage/static/media/blogger.4ceda56a4acf74416b5f.png",
@@ -35,12 +36,12 @@
     "static/media/school.svg": "/homepage/static/media/school.862b6e6bc436a6d76691dbe36ace7fb0.svg",
     "static/media/work.svg": "/homepage/static/media/work.882163fe426ada068d2bf7b4003b967e.svg",
     "index.html": "/homepage/index.html",
-    "main.cb3523fc.css.map": "/homepage/static/css/main.cb3523fc.css.map",
-    "main.b3fbe670.js.map": "/homepage/static/js/main.b3fbe670.js.map",
+    "main.dd9c5c5b.css.map": "/homepage/static/css/main.dd9c5c5b.css.map",
+    "main.e964c76d.js.map": "/homepage/static/js/main.e964c76d.js.map",
     "453.1eb5cc81.chunk.js.map": "/homepage/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb3523fc.css",
-    "static/js/main.b3fbe670.js"
+    "static/css/main.dd9c5c5b.css",
+    "static/js/main.e964c76d.js"
   ]
 }
