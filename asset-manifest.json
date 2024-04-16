@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/homepage/static/css/main.dd9c5c5b.css",
-    "main.js": "/homepage/static/js/main.e964c76d.js",
+    "main.css": "/homepage/static/css/main.facfab84.css",
+    "main.js": "/homepage/static/js/main.7047617c.js",
     "static/js/453.1eb5cc81.chunk.js": "/homepage/static/js/453.1eb5cc81.chunk.js",
     "static/media/PenghargaanDll.jpg": "/homepage/static/media/PenghargaanDll.af1ba95dc1dc34bce762.jpg",
     "static/media/Profile3.jpg": "/homepage/static/media/Profile3.88b6e9321577bbd831fd.jpg",
@@ -36,12 +36,12 @@
     "static/media/school.svg": "/homepage/static/media/school.862b6e6bc436a6d76691dbe36ace7fb0.svg",
     "static/media/work.svg": "/homepage/static/media/work.882163fe426ada068d2bf7b4003b967e.svg",
     "index.html": "/homepage/index.html",
-    "main.dd9c5c5b.css.map": "/homepage/static/css/main.dd9c5c5b.css.map",
-    "main.e964c76d.js.map": "/homepage/static/js/main.e964c76d.js.map",
+    "main.facfab84.css.map": "/homepage/static/css/main.facfab84.css.map",
+    "main.7047617c.js.map": "/homepage/static/js/main.7047617c.js.map",
     "453.1eb5cc81.chunk.js.map": "/homepage/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd9c5c5b.css",
-    "static/js/main.e964c76d.js"
+    "static/css/main.facfab84.css",
+    "static/js/main.7047617c.js"
   ]
 }
