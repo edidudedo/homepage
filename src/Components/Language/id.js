@@ -81,6 +81,11 @@ const id ={
     },
     achievements : {
         achievements : "Achievements",
+        key : {
+            name : "Nama",
+            year : "Tahun",
+            desc : "Ket",
+        },
         gakubusho_desc : "Penghargaan dari Osaka University, diberikan kepada satu mahasiswa berprestasi dari jurusan di Osaka University",
         mextMaster_desc : "Beasiswa yang dibiayai oleh Kementerian Pendidikan, Kebudayaan, Olahraga, Ilmu Pengetahuan dan Teknologi Jepang (MEXT), mendukung mahasiswa asing yang belajar di Jepang. Beasiswa ini mencakup biaya kuliah, menyediakan uang saku bulanan, dan mencakup biaya perjalanan pulang-pergi Jepang",
         tpbsho_desc : "Penghargaan dari Osaka University, diberikan kepada mahasiswa berpresetasi di tahun pertama. Setiap tahunnya, sekitar 50 mahasiswa dari lebih dari 3000 mahasiswa dari semua fakultas dipilih, berdasarkan prestasi mereka di akhir tahun kedua",
@@ -106,7 +111,7 @@ const id ={
         calculator_desc : "Layanan web kalkulator sederhana di mana pengguna dapat melakukan perhitungan dasar. Proyek ini dibuat sebagai tahap awal web dev-ku.",
     },
     collab : {
-        title : "Collaboration",
+        title : "Kolaborasi",
         key : {
             name : "Nama",
             year : "Tahun",
@@ -116,6 +121,12 @@ const id ={
         image_desc : "Program computer vision dengan gambar sebagai input, kemudian program akan langsung memotong objek kuadrilateral utama dalam gambar dan mencetaknya sebagai gambar baru. Berkolaborasi dengan : 西田 直生, 忠谷 晃佑、北村 祐稀.",
         vr_name : "脱出迷路",
         vr_desc : "Game VR 1 vs 1 antara dua pemain. Satu pemain memainkan peran sebagai Game Master, mengendalikan labirin komputer. Satu pemain lagi berperan sebagai pemain dalam labirin menggunakan kacamata VR. Tujuan pemain dalam labirin adalah untuk melarikan diri dari labirin dengan mengumpulkan kunci dan berbagai item dalam batas waktu, sambil menghindari jebakan yang disiapkan oleh Game Master dan menghindari monster yang mengintai di dalamnya. Berkolaborasi dengan : 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人."
+    },
+    footer : {
+        contact : "Kontak",
+        professional : "Platform Professional",
+        personal : "Platform Personal",
+        credits : "Kredit"
     }
 }
 
