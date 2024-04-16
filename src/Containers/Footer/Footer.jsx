@@ -5,7 +5,11 @@ import Profile3 from '../../Assets/Profile3.jpg'
 import ReactLogo from '../../Assets/ReactLogo.png'
 import { Blogger, Facebook, Flaticon, Github, Instagram, Linkedin, Twitter, Gmail } from '../../Assets/Footer'
 
+import { LanguageContext } from '../../Components/Language/languageContext';
+import { useContext } from 'react';
+
 const Footer = () => {
+    const { translations } = useContext(LanguageContext)
     return(
         <div className = "footer section__padding">
             <div className = "footer-links">
@@ -13,14 +17,14 @@ const Footer = () => {
                     <img src= {Profile3} alt = "profile3" />
                 </div>
                 <div className = "footer-links_div">
-                    <h4>Contact Information</h4>
+                    <h4>{translations.footer.contact}</h4>
                     <span>
                         <img src= {Gmail} alt = "gmail" /> 
                         eduardoiglesius101@gmail.com
                     </span>
                 </div>
                 <div className = "footer-links_div">
-                    <h4>Professional Platform</h4>
+                    <h4>{translations.footer.professional}</h4>
                     <a href="https://github.com/edidudedo" target = "_blank">
                         <img src= {Github} alt = "github" /> 
                         Edidudedo
@@ -35,7 +39,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className = "footer-links_div">
-                    <h4>Personal Platform</h4>
+                    <h4>{translations.footer.personal}</h4>
                     <a href="https://www.facebook.com/eduardo.iglesius/" target = "_blank">
                         <img src= {Facebook} alt = "facebook" /> 
                         eduardo.iglesius
@@ -51,7 +55,7 @@ const Footer = () => {
                     </a>
                 </div>
                 <div className = "footer-links_div">
-                    <h4>Credits</h4>
+                    <h4>{translations.footer.credits}</h4>
                     <a href="https://www.flaticon.com/" target = "_blank">
                         <img src= {Flaticon} alt = "flaticon" /> 
                         Flaticon

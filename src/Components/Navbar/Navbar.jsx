@@ -60,7 +60,6 @@ const Navbar = () => {
                             <LanguageMenu />
                         </div>
                     </div>
-
                 )}
             </div>
         </div>

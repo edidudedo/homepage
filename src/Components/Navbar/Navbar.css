@@ -3,7 +3,7 @@
     justify-content : space-between;
     align-items:center;
 
-    padding: 2rem 6rem;
+    padding: 1rem 5rem;
     z-index: 1000;
 } 
 
@@ -20,17 +20,24 @@
     flex-direction:row;
 }
 
-.navbar-sign{
-    display :flex;
+.navbar-sign {
+    display: flex;
     justify-content: flex-end;
-    align-items : center;
+    align-items: center;
 }
 
 .navbar-sign a{
-    display :flex;
-    justify-content: flex-end;
-    align-items : center;
-    cursor : pointer;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+    flex-grow: 1; 
+    text-align: center; 
+    padding: 0 1rem; 
+}
+
+.navbar-sign a:hover{
+    background-color: grey;
 }
 
 .navbar-links_container p, .navbar-sign p{
@@ -40,11 +47,13 @@
     font-size:14px;
     line-height : 25px;
     text-transform: capitalize;
-
-    margin: 0 1rem;
+    padding : 1rem;
     cursor : pointer;
 }
 
+.navbar-links_container p:hover {
+    background-color : grey;
+}
 .navbar-menu_container button{
     padding: 1rem 2rem;
     font-family:var(--font-family);
@@ -57,7 +66,7 @@
     width : 150px;
     background-color: white;
     color : black;
-    margin : 2px;
+    margin : 5px;
 }
 
 .navbar-menu{
@@ -91,6 +100,9 @@
     flex-direction : column;
     z-index: 1001; 
     border : 5px solid rgb(72, 72, 72);
+}
+.navbar-menu_container-links button:hover{
+    background-color: rgb(190, 190, 190);
 }
 
 .navbar-menu_container-links-sign{

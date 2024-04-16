@@ -23,7 +23,7 @@ const Achievements = () => {
         <div className = "achievements section__padding" id ="achievements">
             <div className = "achievements-content">
                 <h1 className = "about-title">
-                    Achievements
+                    {translations.achievements.achievements}
                 </h1>
                 <div class="achievements-container">
                     {AchievementList.map(item => (
@@ -31,17 +31,17 @@ const Achievements = () => {
                             <a href={item.imgLink} target="_blank" onClick={(e) => handleLinkClick(e, item.imgLink)}>
                                 <img src={item.imgSrc} alt="Achievement Description" />
                                 <div class="achievement-description">
-                                    <span class="achievement-item-label">Name</span>
+                                    <span class="achievement-item-label">{translations.achievements.key.name}</span>
                                     <span class="achievement-item-separator">:</span>
                                     <span class="achievement-item-value">{item.name}</span>
                                 </div>
                                 <div class="achievement-description">
-                                    <span class="achievement-item-label">Year</span>
+                                    <span class="achievement-item-label">{translations.achievements.key.year}</span>
                                     <span class="achievement-item-separator">:</span>
                                     <span class="achievement-item-value">{item.year}</span>
                                 </div>
                                 <div class="achievement-description">
-                                    <span class="achievement-item-label">Desc</span>
+                                    <span class="achievement-item-label">{translations.achievements.key.desc}</span>
                                     <span class="achievement-item-separator">:</span>
                                     <div>{item.desc}</div>
                                 </div>
