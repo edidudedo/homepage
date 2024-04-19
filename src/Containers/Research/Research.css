@@ -124,5 +124,50 @@
     background-color: rgb(141, 141, 141);
 }
 
+@media screen and (max-width : 1050px){
+    .research{
+        flex-direction : column;
+    }
+
+    .research-content {
+        margin-left : 0;
+        margin-right : 0;
+    }
+
+    .research-content h1::after{
+        width : 200%
+    }
+    
+    ._research{
+        width : 100%
+    }
+}
+
+@media screen and (max-width : 650px){
+    .research h1{
+        font-size : 48px;
+        line-height : 60px;
+    }
+    
+}
+
+@media screen and (max-width : 490px){
+    .research h1{
+        font-size : 36px;
+        line-height : 48px;
+    }
+
+    .header p{
+        font-size : 14px;
+        line-height : 24px;
+    }
+
+    .header-content__input input,
+    .header-content__input button {
+        font-size : 12px;
+        line-height :16px;
+    }
+}
+
 
   

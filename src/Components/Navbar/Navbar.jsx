@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'; 
+import { RiMenu2Line, RiCloseLine } from 'react-icons/ri'; 
 import { FaGlobe } from 'react-icons/fa';
 import './Navbar.css'
 
@@ -12,6 +12,7 @@ import { LanguageContext } from '../Language/languageContext';
 const Navbar = () => {
     const { language, translations, setLanguage } = useContext(LanguageContext)
     const [toggleMenu, setToggleMenu] = useState(false);
+    const [toggleMenu2, setToggleMenu2] = useState(false);
 
     const ref = useRef(null); 
 
@@ -60,11 +61,26 @@ const Navbar = () => {
     )
     return(
         <div className = "navbar" id = "navbar" >
+            <div className = "gpt3__navbar-menu">
+                {toggleMenu2
+                  ? <RiCloseLine color = "#fff" size = {27} onClick = {() => setToggleMenu2(false)}/>
+                  : <RiMenu2Line color = "#fff" size = {27} onClick = {() => setToggleMenu2(true)}/>
+                }
+                {toggleMenu2 && (
+                    <div className = "gpt3__navbar-menu_container scale-up-center">
+                        <div className = "gpt3__navbar-menu_container-links">
+                            <Menu />
+                        </div>
+                    </div>
+
+                )}
+            </div>
             <div className = "navbar-links"> 
                 <div className = "navbar-links_container">
                     <Menu />
                 </div>
             </div>
+            
             <div className = "navbar-sign" ref = {ref}>
                 <a onClick ={() => setToggleMenu(!toggleMenu)}>
                     <FaGlobe color = "#fff" size = {21}  />
