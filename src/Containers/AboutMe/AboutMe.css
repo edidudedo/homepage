@@ -92,3 +92,31 @@
     margin-top : 5px;
     margin-left : 5px; 
 }
+
+@media screen and (max-width : 1050px){
+    .about{
+        flex-direction : column;
+    }
+
+    .about-content {
+        display : flex;
+        justify-content : center;
+        align-items : center;
+        margin-left : 0;
+        margin-top : 2rem;
+    }
+}
+
+@media screen and (max-width : 650px){
+    .about h1{
+        font-size : 48px;
+        line-height : 60px;
+    }
+}
+
+@media screen and (max-width : 490px){
+    .about h1{
+        font-size : 36px;
+        line-height : 48px;
+    }
+}

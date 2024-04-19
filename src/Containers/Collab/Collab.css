@@ -99,4 +99,58 @@
 .collab-item-value {
   margin-left :10px;
 }
+
+@media screen and (max-width : 1200px){
+  .collabs-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+  }
+
+  .collabs-content h1 {
+    line-height: 44px;
+    margin-bottom: 30px;
+    
+  }
+
+  .collabs-content h1::after {
+    width: 120%;
+  }
+
+  .collabs-container {
+    max-width: 100%;
+    padding: 0 10px;
+    flex-direction : column;
+  }
+
+  .collab {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    flex-wrap: wrap; 
+    width: 100%; 
+  }
+
+  .collab a {
+    display: flex;
+    width: 100%; 
+    flex-direction: row; 
+    text-align: left; 
+    align-items: center; 
+  }
+
+  .collab img {
+    flex: 0 0 100px; 
+    width: 100px;
+    height: auto; 
+    margin-right: 20px; 
+  }
+
+  .collab-description {
+    flex: 1; 
+    font-size: 14px;
+    line-height: 21px;
+
+  }
+}
   

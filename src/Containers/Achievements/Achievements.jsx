@@ -30,20 +30,22 @@ const Achievements = () => {
                         <div class="achievement">
                             <a href={item.imgLink} target="_blank" onClick={(e) => handleLinkClick(e, item.imgLink)}>
                                 <img src={item.imgSrc} alt="Achievement Description" />
-                                <div class="achievement-description">
-                                    <span class="achievement-item-label">{translations.achievements.key.name}</span>
-                                    <span class="achievement-item-separator">:</span>
-                                    <span class="achievement-item-value">{item.name}</span>
-                                </div>
-                                <div class="achievement-description">
-                                    <span class="achievement-item-label">{translations.achievements.key.year}</span>
-                                    <span class="achievement-item-separator">:</span>
-                                    <span class="achievement-item-value">{item.year}</span>
-                                </div>
-                                <div class="achievement-description">
-                                    <span class="achievement-item-label">{translations.achievements.key.desc}</span>
-                                    <span class="achievement-item-separator">:</span>
-                                    <div>{item.desc}</div>
+                                <div>
+                                    <div class="achievement-description">
+                                        <span class="achievement-item-label">{translations.achievements.key.name}</span>
+                                        <span class="achievement-item-separator">:</span>
+                                        <span class="achievement-item-value">{item.name}</span>
+                                    </div>
+                                    <div class="achievement-description">
+                                        <span class="achievement-item-label">{translations.achievements.key.year}</span>
+                                        <span class="achievement-item-separator">:</span>
+                                        <span class="achievement-item-value">{item.year}</span>
+                                    </div>
+                                    <div class="achievement-description">
+                                        <span class="achievement-item-label">{translations.achievements.key.desc}</span>
+                                        <span class="achievement-item-separator">:</span>
+                                        <div>{item.desc}</div>
+                                    </div>
                                 </div>
                             </a>
                         </div>

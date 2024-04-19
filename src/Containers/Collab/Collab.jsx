@@ -28,20 +28,22 @@ const Collabs = () => {
                         <div class="collab">
                             <a href={item.imgLink} target="_blank" onClick={(e) => handleLinkClick(e, item.imgLink)}>
                                 <img src={item.imgSrc} alt="collab Description" />
-                                <div class="collab-description">
-                                    <span class="collab-item-label">{translations.collab.key.name}</span>
-                                    <span class="collab-item-separator">:</span>
-                                    <span class="collab-item-value">{item.name}</span>
-                                </div>
-                                <div class="collab-description">
-                                    <span class="collab-item-label">{translations.collab.key.year}</span>
-                                    <span class="collab-item-separator">:</span>
-                                    <span class="collab-item-value">{item.year}</span>
-                                </div>
-                                <div class="collab-description">
-                                    <span class="collab-item-label">{translations.collab.key.desc}</span>
-                                    <span class="collab-item-separator">:</span>
-                                    <div>{item.desc}</div>
+                                <div>
+                                    <div class="collab-description">
+                                        <span class="collab-item-label">{translations.collab.key.name}</span>
+                                        <span class="collab-item-separator">:</span>
+                                        <span class="collab-item-value">{item.name}</span>
+                                    </div>
+                                    <div class="collab-description">
+                                        <span class="collab-item-label">{translations.collab.key.year}</span>
+                                        <span class="collab-item-separator">:</span>
+                                        <span class="collab-item-value">{item.year}</span>
+                                    </div>
+                                    <div class="collab-description">
+                                        <span class="collab-item-label">{translations.collab.key.desc}</span>
+                                        <span class="collab-item-separator">:</span>
+                                        <div>{item.desc}</div>
+                                    </div>
                                 </div>
                             </a>
                         </div>
