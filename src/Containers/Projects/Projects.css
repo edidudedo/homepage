@@ -108,7 +108,7 @@
   }
 
   .projects-content h1 {
-    /* font-size: 36px; */
+    font-size: 36px;
     line-height: 44px;
     margin-bottom: 30px;
     
@@ -130,6 +130,7 @@
     justify-content: flex-start; 
     flex-wrap: wrap; 
     width: 100%; 
+    box-shadow: 0 1px 1px -1px black;
   }
 
   .project a {
@@ -149,8 +150,15 @@
 
   .project-description {
     flex: 1; 
-    font-size: 14px;
+    font-size: 10px;
     line-height: 21px;
+  }
+
+  .project-item-label {
+    width: 30px; 
+  }
+  .project-item-value {
+    margin-left :3px;
   }
 }
   

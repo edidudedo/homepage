@@ -105,6 +105,25 @@
         margin-left : 0;
         margin-top : 2rem;
     }
+    .item-label {
+        display :flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 150px; 
+    }
+    .about-table span{
+        font-size : 15px;
+        padding-right : 10px;
+    }
+
+    .about-table img{
+        height : 15px;
+        margin-right :10px;
+    }
+    .item-row span {
+        margin-right : 3px;
+    }
 }
 
 @media screen and (max-width : 650px){
