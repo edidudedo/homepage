@@ -36,3 +36,10 @@
   .employment-description {
     margin: 1.5em 0 2em 0;
   }
+
+  @media screen and (max-width : 1050px){
+    .employment h1{
+      font-size : 40px;
+      line-height : 60px;
+    }
+}

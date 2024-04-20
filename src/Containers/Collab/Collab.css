@@ -110,7 +110,7 @@
   .collabs-content h1 {
     line-height: 44px;
     margin-bottom: 30px;
-    
+    font-size: 36px;
   }
 
   .collabs-content h1::after {
@@ -129,6 +129,7 @@
     justify-content: flex-start; 
     flex-wrap: wrap; 
     width: 100%; 
+    box-shadow: 0 1px 1px -1px black;
   }
 
   .collab a {
@@ -148,9 +149,16 @@
 
   .collab-description {
     flex: 1; 
-    font-size: 14px;
+    font-size: 10px;
     line-height: 21px;
 
+  }
+
+  .collab-item-label {
+    width: 30px; 
+  }
+  .collab-item-value {
+    margin-left :3px;
   }
 }
   

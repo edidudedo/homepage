@@ -139,8 +139,13 @@
     }
     
     ._research{
-        width : 100%
+        width : 100%;
+        margin-right : 0;
     }
+    ._research iframe {
+        width: 100%; 
+        height : auto; 
+      }
 }
 
 @media screen and (max-width : 650px){

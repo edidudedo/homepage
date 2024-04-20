@@ -32,7 +32,7 @@
     align-items: center;
     cursor: pointer;
     flex-grow: 1; 
-    text-align: center; 
+    text-align: right; 
     padding: 0 1rem; 
 }
 
@@ -54,7 +54,7 @@
 .navbar-links_container p:hover {
     background-color : grey;
 }
-.navbar-menu_container button{
+/* .navbar-menu_container button{
     padding: 1rem 2rem;
     font-family:var(--font-family);
     font-weight: 500;
@@ -67,16 +67,9 @@
     background-color: white;
     color : black;
     margin : 5px;
-}
+} */
 
-.navbar-menu{
-    margin-left : 1rem;
-
-    display:none;
-    position: relative;
-}
-
-.navbar-menu_container{
+/* .navbar-menu_container{
     position:absolute;
     top :40px;
     margin-top:1rem;
@@ -88,9 +81,9 @@
     align-items: center;
     flex-direction : column;
     z-index: 1000;
-}
+} */
 
-.navbar-menu_container-links{
+/* .navbar-menu_container-links{
     background: white;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -100,7 +93,7 @@
     flex-direction : column;
     z-index: 1001; 
     border : 5px solid rgb(72, 72, 72);
-}
+} */
 .navbar-menu_container-links button:hover{
     background-color: rgb(190, 190, 190);
 }
@@ -116,6 +109,7 @@
     position: relative;
 }
 
+.navbar-menu_container,
 .gpt3__navbar-menu_container {
     position:absolute;
     top :40px;
@@ -130,6 +124,7 @@
     z-index: 1000;
 }
 
+.navbar-menu_container-links,
 .gpt3__navbar-menu_container-links{
     background: white;
     border-radius: 10px;
@@ -141,7 +136,7 @@
     z-index: 1001; 
     border : 1px solid rgb(72, 72, 72);
 }
-
+.navbar-menu_container button,
 .gpt3__navbar-menu_container-links p{
     padding: 1rem 2rem;
     font-family:var(--font-family);
@@ -164,12 +159,32 @@
     background-color: rgb(190, 190, 190);
 }
 
+.nav-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: none; 
+}
+
+.nav-overlay.active {
+    display: block; 
+}
+
 @media screen and (max-width : 1050px){
     .navbar-links_container{
         display :none;
     }
     .gpt3__navbar-menu{
         display:flex;
+    }
+    .navbar-menu_container{
+        top : 87px;
+    }
+    .navbar-sign a:hover{
+        background-color: transparent;
     }
 }
 
@@ -184,10 +199,10 @@
         padding:2rem;
     }
     .navbar-sign{
-        display: none;
+        margin : 0
     }
     .gpt3__navbar-menu-container{
-        top : 20px;
+        top : 0px;
     }
 
     .gpt3__navbar-menu_container-links-sign{

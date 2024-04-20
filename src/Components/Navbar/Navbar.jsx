@@ -15,11 +15,40 @@ const Navbar = () => {
     const [toggleMenu2, setToggleMenu2] = useState(false);
 
     const ref = useRef(null); 
+    const ref2 = useRef(null);
+
+    // useEffect(() => {
+    //     function handleClickOutside(event) {
+    //         if (ref.current && !ref.current.contains(event.target)) {
+    //             setToggleMenu(false);
+    //         }
+    //         if (ref2.current && !ref2.current.contains(event.target)) {
+    //             setToggleMenu2(false);
+    //         }
+    //     }
+
+    //     document.addEventListener("mousedown", handleClickOutside);
+
+    //     return () => {
+    //         document.removeEventListener("mousedown", handleClickOutside);
+    //     };
+    // }, [ref, ref2]); 
 
     useEffect(() => {
+        const body = document.body;
+        const toggleBodyScroll = (shouldScroll) => {
+            body.style.overflow = shouldScroll ? 'auto' : 'hidden';
+        };
+
+        // Enable or disable scrolling
+        toggleBodyScroll(!(toggleMenu || toggleMenu2));
+
         function handleClickOutside(event) {
             if (ref.current && !ref.current.contains(event.target)) {
                 setToggleMenu(false);
+            }
+            if (ref2.current && !ref2.current.contains(event.target)) {
+                setToggleMenu2(false);
             }
         }
 
@@ -27,19 +56,20 @@ const Navbar = () => {
 
         return () => {
             document.removeEventListener("mousedown", handleClickOutside);
+            toggleBodyScroll(true); // Re-enable scrolling when the component unmounts
         };
-    }, [ref]); 
+    }, [toggleMenu, toggleMenu2, ref, ref2]); 
 
     const Menu = () =>(
         <>
-        <a href = "#home"><p>{translations.navbar.home}</p></a>
-        <a href = "#aboutMe"><p>{translations.navbar.aboutMe}</p></a>
-        <a href = "#education"><p>{translations.navbar.education}</p></a>
-        <a href = "#employment"><p>{translations.navbar.employment}</p></a>
-        <a href = "#achievements"><p>{translations.navbar.achievements}</p></a>
-        <a href = "#research"><p>{translations.navbar.research}</p></a>
-        <a href = "#projects"><p>{translations.navbar.projects}</p></a>
-        <a href = "#collaboration"><p>{translations.navbar.collab}</p></a>
+        <a href = "#home" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.home}</p></a>
+        <a href = "#aboutMe" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.aboutMe}</p></a>
+        <a href = "#education" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.education}</p></a>
+        <a href = "#employment" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.employment}</p></a>
+        <a href = "#achievements" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.achievements}</p></a>
+        <a href = "#research" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.research}</p></a>
+        <a href = "#projects" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.projects}</p></a>
+        <a href = "#collaboration" onClick ={() => setToggleMenu2(false)}><p>{translations.navbar.collab}</p></a>
         </>
     )
     
@@ -61,7 +91,8 @@ const Navbar = () => {
     )
     return(
         <div className = "navbar" id = "navbar" >
-            <div className = "gpt3__navbar-menu">
+            <div className={`nav-overlay ${toggleMenu || toggleMenu2 ? 'active' : ''}`}></div>
+            <div className = "gpt3__navbar-menu" ref = {ref2}>
                 {toggleMenu2
                   ? <RiCloseLine color = "#fff" size = {27} onClick = {() => setToggleMenu2(false)}/>
                   : <RiMenu2Line color = "#fff" size = {27} onClick = {() => setToggleMenu2(true)}/>
