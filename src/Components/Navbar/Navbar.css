@@ -12,6 +12,7 @@
     display:flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 
@@ -28,7 +29,7 @@
 
 .navbar-sign a{
     display: flex;
-    justify-content: center; 
+    /* justify-content: stretch;  */
     align-items: center;
     cursor: pointer;
     flex-grow: 1; 
@@ -40,7 +41,7 @@
     background-color: grey;
 }
 
-.navbar-links_container p, .navbar-sign p{
+.navbar-links_container p {
     color:#fff;
     font-family :var(--font-family);
     font-weight: 500;
@@ -48,6 +49,17 @@
     line-height : 25px;
     text-transform: capitalize;
     padding : 1rem;
+    cursor : pointer;
+}
+
+.navbar-sign p {
+    color:#fff;
+    font-family :var(--font-family);
+    font-weight: 500;
+    font-size:14px;
+    line-height : 25px;
+    text-transform: capitalize;
+    padding : 1rem 0.5rem;
     cursor : pointer;
 }
 
@@ -132,6 +144,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     flex-direction : column;
     z-index: 1001; 
     border : 1px solid rgb(72, 72, 72);
