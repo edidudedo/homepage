@@ -18,15 +18,17 @@ const Research = () => {
                     {ResearchList.map(item => (
                         <div class="_research">
                             <h2>{item.title}</h2>
-                            <iframe
-                                width="560"
-                                height="315"
-                                src={item.youtubeLink}
-                                title="Research Video"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
+                            <div className="research-iframe_container">
+                                <iframe
+                                    width="560"
+                                    height="315"
+                                    src={item.youtubeLink}
+                                    title="Research Video"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
                             <div class="research-description">
                                 <span class="research-item-label">Abstract</span>
                                 <span class="research-item-separator">:</span>
