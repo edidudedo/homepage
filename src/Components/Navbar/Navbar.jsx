@@ -40,7 +40,6 @@ const Navbar = () => {
             body.style.overflow = shouldScroll ? 'auto' : 'hidden';
         };
 
-        // Enable or disable scrolling
         toggleBodyScroll(!(toggleMenu || toggleMenu2));
 
         function handleClickOutside(event) {

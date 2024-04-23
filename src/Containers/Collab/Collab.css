@@ -51,6 +51,7 @@
 .collabs-container {
     display: flex;
     overflow-x: auto; 
+    overflow-y: hidden;
     width: 100%; 
     max-width: 1200px; 
   }
@@ -121,6 +122,7 @@
     max-width: 100%;
     padding: 0 10px;
     flex-direction : column;
+    
   }
 
   .collab {
