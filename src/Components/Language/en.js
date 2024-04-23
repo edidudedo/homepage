@@ -62,7 +62,7 @@ const en ={
         employment : "Employment",
         wasabi_title : "Indonesian-English-Japanese Translator",
         wasabi_loc : "Mori Kosan Co,. Ltd. Osaka, Japan",
-        wasabi_desc : "Translating article, news, SNS caption between Indonesian, English, and Japanese language only for the short term becuase of the tight university schedule.",
+        wasabi_desc : "Translating article, news, SNS caption between Indonesian, English, and Japanese language only for the short term because of the tight university schedule.",
         hello_title : "Indonesian Teacher",
         hello_loc : "Hello Sensei, Japan",
         hello_desc : "Teaching Japanese students from various range of ages in Indonesian language.",

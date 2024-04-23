@@ -1,17 +1,43 @@
 import React from 'react'
 import './Achievements.css'
 import { Penghargaan, Penghargaan2, PenghargaanDll, Monbukagakusho } from '../../Assets/Achievements'
-import { useContext } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import { LanguageContext } from '../../Components/Language/languageContext';
+
+import ImageModal from '../../Components/ImageModal/ImageModal';
 
 const Achievements = () => {
     const { translations } = useContext(LanguageContext);
-    const handleLinkClick = (e, imgLink) => {
-        if (!imgLink) {
-          e.preventDefault();
-          alert('There is no reference website.');
+    const [isModalOpen, setModalOpen] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+
+    useEffect(() => {
+        const body = document.body;
+        const toggleBodyScroll = (shouldScroll) => {
+            body.style.overflow = shouldScroll ? 'auto' : 'hidden';
+        };
+
+        toggleBodyScroll(!isModalOpen);
+    
+        // Cleanup function to re-enable scrolling when the modal closes or on component unmount
+        return () => {
+            toggleBodyScroll(true);
+        };
+    }, [isModalOpen]);
+    
+
+    const handleImageClick = (e, item) => {
+        if (!item.imgLink) {
+            e.preventDefault();
+            setSelectedImage(item.imgSrc);
+            setModalOpen(true);
         }
-      };
+    };
+
+    const closeModal = () => {
+        setModalOpen(false);
+        setSelectedImage(null);
+    };
     const AchievementList = [
         {imgSrc : Penghargaan2, imgLink : "",  name : "大阪大学基礎工学部賞", year : "2024", desc  : translations.achievements.gakubusho_desc},
         {imgSrc : Monbukagakusho, imgLink : "https://www.id.emb-japan.go.jp/sch_rs2025.html",  name : "MEXT Scholarship (Master)", year : "2024", desc  : translations.achievements.mextMaster_desc},
@@ -28,7 +54,7 @@ const Achievements = () => {
                 <div class="achievements-container">
                     {AchievementList.map(item => (
                         <div class="achievement">
-                            <a href={item.imgLink} target="_blank" onClick={(e) => handleLinkClick(e, item.imgLink)}>
+                            <a href={item.imgLink || '#'} target="_blank" onClick={(e) => handleImageClick(e, item)}>
                                 <img src={item.imgSrc} alt="Achievement Description" />
                                 <div>
                                     <div class="achievement-description">
@@ -53,6 +79,8 @@ const Achievements = () => {
                 </div>
 
             </div>
+            {isModalOpen && <ImageModal src={selectedImage} onClose={closeModal} />}
+            {/* <div className={`nav-overlay ${isModalOpen ? 'active' : ''}`} onClick={closeModal}></div> */}
         </div>
     )
 }
