@@ -1,6 +1,6 @@
 import React from 'react'
 import './Collab.css'
-import { Maze, ImageCropper } from '../../Assets/Collab'
+import { Maze, ImageCropper, Hackathon } from '../../Assets/Collab'
 import { useContext } from 'react';
 import { LanguageContext } from '../../Components/Language/languageContext';
 
@@ -13,6 +13,7 @@ const Collabs = () => {
         }
       };
     const CollabList = [
+        {imgSrc : Hackathon, imgLink : "https://github.com/hiiragi589/hackathon2024April",  name : "SmartSplitter", year : "2024", desc  : translations.collab.hackathon},
         {imgSrc : ImageCropper, imgLink : "",  name : "Automatic Image Cropper", year : "2023", desc  : translations.collab.image_desc},
         {imgSrc : Maze, imgLink : "https://github.com/hiiragi589/vr_work_2022?tab=readme-ov-file",  name : "脱出迷路", year : "2022", desc  : translations.collab.vr_desc},
     

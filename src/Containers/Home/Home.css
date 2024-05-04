@@ -45,8 +45,13 @@
 .Home-news ul {
     max-height: 150px;
     overflow-y: auto;
-    list-style-type: disc;
+    list-style-type: none;
     padding-left: 20px;
+}
+.news-list-item::marker {
+    content: '•'; /* Use a custom bullet character */
+    color: var(--color-text); /* Change the color of the bullet */
+    font-size: 1.2em; /* Adjust the size of the bullet */
 }
 
 .Home-news ul::-webkit-scrollbar {
@@ -64,9 +69,29 @@
     border: 3px solid #007bff; 
 }
 
-.Home-news li{
+/* .news-list-item {
+    
+} */
+
+.news-item-content {
+    display: flex;
+    flex-direction: row;
     color : var(--color-text);
     font-size : 18px;
+}
+
+.news-item-year,
+.news-item-separator,
+.news-item-name {
+    margin: 0; /* Adjust margins as needed */
+}
+
+.news-item-year{
+    padding-left: 10px;
+}
+
+.news-item-separator {
+    margin: 0 0.5em; /* Add spacing between year, separator, and name */
 }
 
 .header-image {
