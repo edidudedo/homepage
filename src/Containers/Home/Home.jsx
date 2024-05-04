@@ -8,6 +8,7 @@ const NewsItems = () => {
     const { translations } = useContext(LanguageContext)
 
     const items = [
+        { year: 2014, name: translations.home.news.hackathon },
         { year: 2024, name: translations.home.news.masterHandai },
         { year: 2024, name: translations.home.news.graduateHandai },
         { year: 2024, name: translations.home.news.mextMaster },
@@ -18,13 +19,20 @@ const NewsItems = () => {
         { year: 2021, name: translations.home.news.memberInternal },
         { year: 2020, name: translations.home.news.bachelorHandai },
         { year: 2019, name: translations.home.news.jlc },
+        { year: 2019, name: translations.home.news.mextBachelor },
       ];
     return (
         <div className = "Home-news">
             <h2 className = "gradient__text">News</h2>
             <ul>
                 {items.map(item => (
-                    <li key  = "NewsItem">{item.year} : {item.name}</li>
+                    <li key="NewsItem" className="news-list-item">
+                        <div className="news-item-content">
+                            <div className="news-item-year">{item.year}</div>
+                            <div className="news-item-separator">:</div>
+                            <div className="news-item-name">{item.name}</div>
+                        </div>
+                    </li>
                 ))}
             </ul>
         </div>

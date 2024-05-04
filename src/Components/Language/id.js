@@ -12,9 +12,10 @@ const id ={
     home : {
         desc : "Halo semua! Selamat datang di homepage pribadi aku. Kenalin namaku Eduardo Iglesius. Homepage ini adalah salah satu proyek pribadi aku, ntar bakalan dipake sebagai portofolio digital kayak LinkedIn. Di laman ini, aku bakalan membagikan pencapaian dan berbagai proyek yang udah aku buat, baik sendiri maupun bareng teman yang lain. Semoga kalian enjoy dengan laman ini. Untuk informasi lebih lanjut, silakan scroll ke paling bawah. Enjoy your visit!",
         news : {
+            hackathon : "Menerima Excelence Award dari lomba Hackathon Track Job",
             masterHandai : "Mulai S2 di Osaka University",
             graduateHandai : "Lulus S1 dari Osaka University",
-            mextMaster : "Menerima beasiswa MEXT untuk master",
+            mextMaster : "Menerima beasiswa MEXT untuk S2",
             cChannel : "Mulai bekerja sebagai Web Developer di C-Channel Jepang",
             helloSensei : "Mulai bekerja sebagai guru bahasa Indonesia di Hello Sensei Jepang",
             wasabi : "Mulai bekerja sebagai translator di Mori Kosan",
@@ -22,6 +23,7 @@ const id ={
             memberInternal : "Menjadi anggota internal PPI-ON",
             bachelorHandai : "Mulai S1 di Osaka University",
             jlc : "Mulai sekolah bahasa Jepang di Japanese Language Center for International Students",
+            mextBachelor : "Menerima beasiswa MEXT untuk S1",
         },
     },
     aboutMe : {
@@ -92,6 +94,7 @@ const id ={
             year : "Tahun",
             desc : "Ket",
         },
+        hackathon_desc : "Penghargaan dari Track Job, diberikan kepada tim atas ide, pengimplementasian dan presentasi secara keseluruhan yang diselenggarakan selama 2 minggu.",
         gakubusho_desc : "Penghargaan dari Osaka University, diberikan kepada satu mahasiswa berprestasi dari setiap jurusan di Osaka University",
         mextMaster_desc : "Beasiswa yang dibiayai oleh Kementerian Pendidikan, Kebudayaan, Olahraga, Ilmu Pengetahuan dan Teknologi Jepang (MEXT), mendukung mahasiswa asing yang belajar di Jepang. Beasiswa ini mencakup biaya kuliah, menyediakan uang saku bulanan, dan mencakup biaya perjalanan pulang-pergi Jepang",
         tpbsho_desc : "Penghargaan dari Osaka University, diberikan kepada mahasiswa berpresetasi di tahun pertama. Setiap tahunnya, sekitar 50 mahasiswa dari lebih dari 3000 mahasiswa dari semua fakultas dipilih, berdasarkan prestasi mereka di akhir tahun kedua",
@@ -126,7 +129,8 @@ const id ={
         image_name : "Automatic Image Cropper",
         image_desc : "Program computer vision dengan gambar sebagai input, kemudian program akan langsung memotong objek kuadrilateral utama dalam gambar dan mencetaknya sebagai gambar baru. Berkolaborasi dengan : 西田 直生, 忠谷 晃佑、北村 祐稀.",
         vr_name : "脱出迷路",
-        vr_desc : "Game VR 1 vs 1 antara dua pemain. Satu pemain memainkan peran sebagai Game Master, mengendalikan labirin komputer. Satu pemain lagi berperan sebagai pemain dalam labirin menggunakan kacamata VR. Tujuan pemain dalam labirin adalah untuk melarikan diri dari labirin dengan mengumpulkan kunci dan berbagai item dalam batas waktu, sambil menghindari jebakan yang disiapkan oleh Game Master dan menghindari monster yang mengintai di dalamnya. Berkolaborasi dengan : 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人."
+        vr_desc : "Game VR 1 vs 1 antara dua pemain. Satu pemain memainkan peran sebagai Game Master, mengendalikan labirin komputer. Satu pemain lagi berperan sebagai pemain dalam labirin menggunakan kacamata VR. Tujuan pemain dalam labirin adalah untuk melarikan diri dari labirin dengan mengumpulkan kunci dan berbagai item dalam batas waktu, sambil menghindari jebakan yang disiapkan oleh Game Master dan menghindari monster yang mengintai di dalamnya. Berkolaborasi dengan : 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人.",
+        hackathon : "Sebuah aplikasi handphone di mana pengguna dapat menggunakan kamera HP untuk meng-scan bill pada saat jalan-jalan dan dapat mengatur jumlah uang yang diperlukan masing-masing orang. Berkolaborasi denga : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon."
     },
     footer : {
         contact : "Kontak",

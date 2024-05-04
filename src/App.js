@@ -10,7 +10,7 @@ function App() {
 
   return (
     <LanguageProvider>
-      <div clasName = "App">
+      <div className = "App">
         <TopButton />
         <div className = "gradient__bg">
           <Navbar />

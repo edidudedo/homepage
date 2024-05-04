@@ -12,6 +12,7 @@ const en ={
     home : {
         desc : "Hey guys, welcome to my homepage. My name is Eduardo Iglesius. This site is one of my personal projects, used as a digital portfolio similar to LinkedIn. Here, I'll be sharing my achievements and various projects that  I made alone or with my friends. I hope you find it interesting. For contact information and more, please scroll down. Enjoy your visit!",
         news : {
+            hackathon : "Received Excelence Award from Hackathon Track Job",
             masterHandai : "Started master degree in Osaka University",
             graduateHandai : " Graduated from Osaka University (Bachelor Degree)",
             mextMaster : "Received MEXT Scholarship for master",
@@ -22,6 +23,7 @@ const en ={
             memberInternal : "Became member of Internal in PPI-ON",
             bachelorHandai : "Started bachelor degree in Osaka University",
             jlc : "Started japanese school in Japanese Language Center for International Students",
+            mextBachelor : "Received MEXT Scholarship for bachelor",
         },
     },
     aboutMe : {
@@ -92,6 +94,7 @@ const en ={
             year : "Year",
             desc : "Desc",
         },
+        hackathon_desc : "An award issued by Track Job, given to the outstanding team for the overall idea, implementation, and presentation that were conducted within 2 weeks.",
         gakubusho_desc : "An award issued by Osaka University, given to one outstanding student from the course who is currently enrolled in Osaka University",
         mextMaster_desc : "A scholarship funded by the Japanese Ministry of Education, Culture, Sports, Science and Technology (MEXT), supports foreign students studying in Japan. It covers tuition, provides a monthly stipend, and include travel expenses to and from Japan.",
         tpbsho_desc : "An award issued by Osaka univeristy, Honored to students who excel in liberal arts education, focusing on one of the university's educational goals. It evaluates overall achievements including credits earned and academic performance. Annually, around 50 students out of 3000s students from across all faculties are selected, based on their accomplishments by the end of their second year, including those in the International College's English courses by their third year.",
@@ -126,7 +129,8 @@ const en ={
         image_name : "Automatic Image Cropper",
         image_desc : "A computer vision with 1 image input and then the program will immediately crop the main quadilateral object in the image and print it as a new image. Credit to 西田 直生, 忠谷 晃佑、北村 祐稀.",
         vr_name : "脱出迷路",
-        vr_desc : "A 1v1 VR game between two players. One player plays the role of the Game Master, controlling the maze and its dynamics through a computer interface. The opposing player, immersed in a virtual reality environment, takes on the role of a player. The objective of the player is to escape the labyrinth by collecting keys and various items within the time limit, all while avoiding the traps set by the Game Master and evading monsters that lurk within. Credit to 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人."
+        vr_desc : "A 1v1 VR game between two players. One player plays the role of the Game Master, controlling the maze and its dynamics through a computer interface. The opposing player, immersed in a virtual reality environment, takes on the role of a player. The objective of the player is to escape the labyrinth by collecting keys and various items within the time limit, all while avoiding the traps set by the Game Master and evading monsters that lurk within. Credit to 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人.",
+        hackathon : "A mobile app where user can use their phone cameras to scan the bill when they go to a trip and split it among the others. Credit to : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon."
     },
     footer : {
         contact : "Contact",

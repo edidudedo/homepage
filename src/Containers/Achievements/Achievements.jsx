@@ -1,6 +1,6 @@
 import React from 'react'
 import './Achievements.css'
-import { Penghargaan, Penghargaan2, PenghargaanDll, Monbukagakusho } from '../../Assets/Achievements'
+import { Penghargaan, Penghargaan2, PenghargaanDll, Monbukagakusho, Hackathon } from '../../Assets/Achievements'
 import { useContext, useEffect, useState } from 'react';
 import { LanguageContext } from '../../Components/Language/languageContext';
 
@@ -39,6 +39,7 @@ const Achievements = () => {
         setSelectedImage(null);
     };
     const AchievementList = [
+        {imgSrc : Hackathon, imgLink : "https://job.tracks.run/challenges/hackathon-20240413",  name : "ハッカソン優秀賞", year : "2024", desc  : translations.achievements.hackathon_desc},
         {imgSrc : Penghargaan2, imgLink : "",  name : "大阪大学基礎工学部賞", year : "2024", desc  : translations.achievements.gakubusho_desc},
         {imgSrc : Monbukagakusho, imgLink : "https://www.id.emb-japan.go.jp/sch_rs2025.html",  name : "MEXT Scholarship (Master)", year : "2024", desc  : translations.achievements.mextMaster_desc},
         {imgSrc : Penghargaan, imgLink : "https://www.celas.osaka-u.ac.jp/top-50-of-osaka-univ/", name : "大阪大学全学教育優秀賞", year : "2021", desc  : translations.achievements.tpbsho_desc},
