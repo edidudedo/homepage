@@ -8,7 +8,7 @@ const NewsItems = () => {
     const { translations } = useContext(LanguageContext)
 
     const items = [
-        { year: 2014, name: translations.home.news.hackathon },
+        { year: 2024, name: translations.home.news.hackathon },
         { year: 2024, name: translations.home.news.masterHandai },
         { year: 2024, name: translations.home.news.graduateHandai },
         { year: 2024, name: translations.home.news.mextMaster },
