@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.f69ea448.css",
-    "main.js": "/homepage/static/js/main.1b72d017.js",
+    "main.js": "/homepage/static/js/main.58d27a32.js",
     "static/js/453.1eb5cc81.chunk.js": "/homepage/static/js/453.1eb5cc81.chunk.js",
     "static/media/Profile3.jpg": "/homepage/static/media/Profile3.88b6e9321577bbd831fd.jpg",
     "static/media/Homepage.png": "/homepage/static/media/Homepage.95d3dad075f854306258.png",
     "static/media/Profile.jpg": "/homepage/static/media/Profile.259d32b654e27e767382.jpg",
-    "static/media/hakathon.png": "/homepage/static/media/hakathon.dc965b35f8f6fb0dfd09.png",
     "static/media/Penghargaan2.jpg": "/homepage/static/media/Penghargaan2.88e1258af75fa0f21fb0.jpg",
+    "static/media/hakathon.png": "/homepage/static/media/hakathon.8957cd3323f9939aea05.png",
     "static/media/penghargaan.jpg": "/homepage/static/media/penghargaan.4e96a0892e67cc6df0fc.jpg",
     "static/media/PenghargaanDll.jpg": "/homepage/static/media/PenghargaanDll.5497f4c2a0100c973a41.jpg",
     "static/media/Maze.png": "/homepage/static/media/Maze.d1edcc1a4b059364068e.png",
@@ -39,11 +39,11 @@
     "static/media/work.svg": "/homepage/static/media/work.882163fe426ada068d2bf7b4003b967e.svg",
     "index.html": "/homepage/index.html",
     "main.f69ea448.css.map": "/homepage/static/css/main.f69ea448.css.map",
-    "main.1b72d017.js.map": "/homepage/static/js/main.1b72d017.js.map",
+    "main.58d27a32.js.map": "/homepage/static/js/main.58d27a32.js.map",
     "453.1eb5cc81.chunk.js.map": "/homepage/static/js/453.1eb5cc81.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f69ea448.css",
-    "static/js/main.1b72d017.js"
+    "static/js/main.58d27a32.js"
   ]
 }
