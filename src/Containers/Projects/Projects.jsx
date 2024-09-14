@@ -1,6 +1,6 @@
 import React from 'react'
 import './Projects.css'
-import { Homepage, ToDoList, Calculator } from '../../Assets/Projects'
+import { Homepage, ToDoList, Calculator, BadInterface } from '../../Assets/Projects'
 import { useContext } from 'react';
 import { LanguageContext } from '../../Components/Language/languageContext';
 
@@ -9,6 +9,7 @@ import { LanguageContext } from '../../Components/Language/languageContext';
 const Projects = () => {
     const { translations } = useContext(LanguageContext);
     const ProjectList = [
+        {imgSrc : BadInterface, imgLink : "https://youtu.be/VUfU0RNuoGQ",  name : "Bad Interface", year : "2024", desc  : translations.project.bi_desc},
         {imgSrc : Homepage, imgLink : "https://edidudedo.github.io/homepage/",  name : "Homepage", year : "2024", desc  : translations.project.hp_desc},
         {imgSrc : ToDoList, imgLink : "https://www.youtube.com/watch?v=Z2Zp9fPNdrY",  name : "To-Do List Android App", year : "2024", desc  : translations.project.todo_desc},
         {imgSrc : Calculator, imgLink : "https://edidudedo.github.io/Calculator/",  name : "Calculator Web Service", year : "2023", desc  : translations.project.calculator_desc},

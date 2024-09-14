@@ -70,7 +70,13 @@ const en ={
         hello_desc : "Teaching Japanese students from various range of ages in Indonesian language.",
         web_title : "Web Developer",
         web_loc : "C-channel. Tokyo, Japan",
-        web_desc : "Developing a page by designing the page using react and typescript and managing the database by using MongoDB and MySQL."
+        web_desc : "Developing a page by designing the page using react and typescript and managing the database by using MongoDB and MySQL.",
+        teamlab_title : "Front End Developer",
+        teamlab_loc : "TeamLab. Tokyo, Japan",
+        teamlab_desc : "Designing the page using React and Next.js. Creating local navigation for the page that follows the page when it is scrolled, and adding function to filter data shown on the page",
+        amazon_title : "Software Development Engineer Intern",
+        amazon_loc : "Amazon. Tokyo, Japan",
+        amazon_desc : "Getting the chance to learn how to use Amazon AWS services to create another service, while also gaining a deeper understanding of the leadership principles at Amazon."
     },
     month : {
         present : "Present",
@@ -112,6 +118,8 @@ const en ={
             year : "Year",
             desc : "Desc",
         },
+        bi_name : "Bad Interface",
+        bi_desc : "Bad interface idea for a login page, name can be set by using scroll bar and the PIN can be set by using russian roullete.",
         hp_name : "Homepage",
         hp_desc : "My own homepage, used as digital portofolio similar to LinkedIn. In this web, I will be sharing my achievements and various projects that I made with my own style.",
         todo_name : "To-Do-List Android App",
@@ -130,7 +138,8 @@ const en ={
         image_desc : "A computer vision with 1 image input and then the program will immediately crop the main quadilateral object in the image and print it as a new image. Credit to 西田 直生, 忠谷 晃佑、北村 祐稀.",
         vr_name : "脱出迷路",
         vr_desc : "A 1v1 VR game between two players. One player plays the role of the Game Master, controlling the maze and its dynamics through a computer interface. The opposing player, immersed in a virtual reality environment, takes on the role of a player. The objective of the player is to escape the labyrinth by collecting keys and various items within the time limit, all while avoiding the traps set by the Game Master and evading monsters that lurk within. Credit to 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人.",
-        hackathon : "A mobile app where user can use their phone cameras to scan the bill when they go to a trip and split it among the others. Credit to : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon."
+        hackathon : "A mobile app where user can use their phone cameras to scan the bill when they go to a trip and split it among the others. Credit to : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon.",
+        ivrc : "A VR project where users can enter a painting and paint within the world of the painting using provided objects. Credit to : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou"
     },
     footer : {
         contact : "Contact",
