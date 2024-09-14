@@ -26,6 +26,20 @@ const EmploymentElements = () => {
       description: translations.employment.web_desc,
       date: language === "ja" ? "2023年" + translations.month.march + " - " + translations.month.present : translations.month.march + " 2023 - " + translations.month.present,
     },
+    {
+      id: 4,
+      title: translations.employment.teamlab_title,
+      location: translations.employment.teamlab_loc,
+      description: translations.employment.teamlab_desc,
+      date: language === "ja" ? "2024年" + translations.month.august : translations.month.august + " 2024",
+    },
+    {
+      id: 5,
+      title: translations.employment.amazon_title,
+      location: translations.employment.amazon_loc,
+      description: translations.employment.amazon_desc,
+      date: language === "ja" ? "2024年" + translations.month.september : translations.month.september + " 2024",
+    },
   ];
 
   return employmentList;

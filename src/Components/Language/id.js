@@ -70,7 +70,13 @@ const id ={
         hello_desc : "Mengajar orang Jepang dari berbagai rentang usia dalam bahasa Indonesia.",
         web_title : "Web Developer",
         web_loc : "C-channel. Tokyo, Jepang",
-        web_desc : "Mengembangkan halaman dengan mendesain halaman menggunakan React dan TypeScript serta mengelola database menggunakan MongoDB dan MySQL."
+        web_desc : "Mengembangkan halaman dengan mendesain halaman menggunakan React dan TypeScript serta mengelola database menggunakan MongoDB dan MySQL.",
+        teamlab_title : "Front End Developer",
+        teamlab_loc : "TeamLab. Tokyo, Jepang",
+        teamlab_desc : "Merancang halaman menggunakan React dan Next.js. Membuat navigasi lokal untuk halaman yang mengikuti halaman saat digulir, dan menambahkan fungsi untuk mengurutkan data yang ditampilkan di halaman",
+        amazon_title : "Software Development Engineer Intern",
+        amazon_loc : "Amazon. Tokyo, Jepang",
+        amazon_desc : "Mendapatkan kesempatan untuk belajar bagaimana menggunakan layanan Amazon AWS untuk membuat layanan lain, sambil juga memahami lebih dalam tentang prinsip kepemimpinan di Amazon."
     },
     month : {
         present : "Sekarang",
@@ -112,6 +118,8 @@ const id ={
             year : "Tahun",
             desc : "Ket",
         },
+        bi_name : "Bad Interface",
+        bi_desc : "Ide bad interface untuk halaman login, nama dapat diatur menggunakan scroll bar dan PIN dapat diatur dengan menggunakan russian roullete.",
         hp_name : "Homepage",
         hp_desc : "Homepage ini, digunakan sebagai portofolio digital yang mirip dengan LinkedIn. Di web ini, aku bakalan ngebagiin pencapaian dan berbagai proyek yang aku dengan style-ku sendiri.",
         todo_name : "To-Do-List Android App",
@@ -130,7 +138,8 @@ const id ={
         image_desc : "Program computer vision dengan gambar sebagai input, kemudian program akan langsung memotong objek kuadrilateral utama dalam gambar dan mencetaknya sebagai gambar baru. Berkolaborasi dengan : 西田 直生, 忠谷 晃佑、北村 祐稀.",
         vr_name : "脱出迷路",
         vr_desc : "Game VR 1 vs 1 antara dua pemain. Satu pemain memainkan peran sebagai Game Master, mengendalikan labirin komputer. Satu pemain lagi berperan sebagai pemain dalam labirin menggunakan kacamata VR. Tujuan pemain dalam labirin adalah untuk melarikan diri dari labirin dengan mengumpulkan kunci dan berbagai item dalam batas waktu, sambil menghindari jebakan yang disiapkan oleh Game Master dan menghindari monster yang mengintai di dalamnya. Berkolaborasi dengan : 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人.",
-        hackathon : "Sebuah aplikasi handphone di mana pengguna dapat menggunakan kamera HP untuk meng-scan bill pada saat jalan-jalan dan dapat mengatur jumlah uang yang diperlukan masing-masing orang. Berkolaborasi denga : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon."
+        hackathon : "Sebuah aplikasi handphone di mana pengguna dapat menggunakan kamera HP untuk meng-scan bill pada saat jalan-jalan dan dapat mengatur jumlah uang yang diperlukan masing-masing orang. Berkolaborasi dengan : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon.",
+        ivrc : "Projek VR di mana pengguna dapat masuk ke dalam lukisan dan melukis di dalam dunia lukisan dengan menggunakan benda-benda yang disediakan di dalam. Berkolaborasi dengan : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou"
     },
     footer : {
         contact : "Kontak",

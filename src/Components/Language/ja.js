@@ -70,7 +70,13 @@ const ja ={
         hello_desc : "インドネシア語で、さまざまな年齢層の日本人学生に教えています",
         web_title : "ウェブ開発者",
         web_loc : "C-channel. 東京, 日本",
-        web_desc : "ReactとTypeScriptを使用してページを設計し、MongoDBとMySQLを使用してデータベースを管理することなど、ページを開発しています。"
+        web_desc : "ReactとTypeScriptを使用してページを設計し、MongoDBとMySQLを使用してデータベースを管理することなど、ページを開発しています。",
+        teamlab_title : "フロントエンド",
+        teamlab_loc : "チームラボ株式会社. 東京, 日本",
+        teamlab_desc : "ReactとNext.jsを使ってページをデザインする。ページがスクロールされると追従するローカルナビゲーションを作成し、ページに表示されるデータを絞り込むする機能を追加する.",
+        amazon_title : "Software Development Engineer Intern",
+        amazon_loc : "アマゾン. 東京, 日本",
+        amazon_desc : "Amazon AWSサービスを使って別のサービスを作成する方法を学ぶ機会を得て、同時にAmazonのリーダーシッププリンシプルについてより深く理解する"
     },
     month : {
         present : "現在",
@@ -112,6 +118,8 @@ const ja ={
             year : "開発年",
             desc : "詳細",
         },
+        bi_name : "Bad Interface",
+        bi_desc : "悪いインターフェースのアイデア: ログインページで名前はスクロールバーを使って設定し、PINはロシアンルーレットを使って設定できる。",
         hp_name : "Homepage",
         hp_desc : "自分のホームページ。LinkedInのようにデジタルポートフォリオとして使っています。このサイトは、自分のスタイルで作り、自分の実績や、自分で作った様々なプロジェクトを紹介していきます.",
         todo_name : "To-Do-List Android App",
@@ -130,7 +138,8 @@ const ja ={
         image_desc : "画像を入力とし、その画像の中の主要な四角形のオブジェクトを即座に切り取り、新しい画像として出力するコンピュータビジョンのプログラムです.協力者 : 西田 直生、忠谷 晃佑、北村 祐稀",
         vr_name : "脱出迷路",
         vr_desc : "1対1のVRゲームです。一人のプレイヤーはゲームマスターとして、コンピュータで迷路を制御します。対戦プレイヤーはVR HMDを被り、迷路から脱出するプレイヤーの役割をしてます。VRプレイヤーの目的は、制限時間内に鍵や様々なアイテムを集めながら迷路から脱出して、その間、ゲームマスターが仕掛けた罠を避けつつ、迷路に潜むモンスターから逃れなければなりません。協力者 : 西滉平、年藤悠歩、佐山幸翼、玉置文人.",
-        hackathon : "ユーザーが旅行に行ったときに領収書をスキャンし、他の人と割り勘できるモバイルアプリ。協力者 : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon."
+        hackathon : "ユーザーが旅行に行ったときに領収書をスキャンし、他の人と割り勘できるモバイルアプリ。協力者 : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon.",
+        ivrc : "ユーザーが絵の中に入り、提供されたオブジェクトを使って絵の世界の中で描くことができるVRプロジェクト. 協力者 : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou"
     },
     footer : {
         contact : "連絡先",
