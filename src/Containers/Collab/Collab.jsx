@@ -1,6 +1,6 @@
 import React from 'react'
 import './Collab.css'
-import { Maze, ImageCropper, Hackathon, IVRC } from '../../Assets/Collab'
+import { Maze, ImageCropper, Hackathon, IVRC, URoom } from '../../Assets/Collab'
 import { useContext } from 'react';
 import { LanguageContext } from '../../Components/Language/languageContext';
 
@@ -13,6 +13,7 @@ const Collabs = () => {
         }
       };
     const CollabList = [
+        {imgSrc : URoom, imgLink : "https://github.com/UranishiLab-RoomManagement",  name : "URoom", year : "2024", desc  : translations.collab.uroom},
         {imgSrc : IVRC, imgLink : "https://youtu.be/v_F31aNTskI",  name : "色彩の旅人", year : "2024", desc  : translations.collab.ivrc},
         {imgSrc : Hackathon, imgLink : "https://github.com/hiiragi589/hackathon2024April",  name : "SmartSplitter", year : "2024", desc  : translations.collab.hackathon},
         {imgSrc : ImageCropper, imgLink : "",  name : "Automatic Image Cropper", year : "2023", desc  : translations.collab.image_desc},

@@ -139,7 +139,8 @@ const en ={
         vr_name : "脱出迷路",
         vr_desc : "A 1v1 VR game between two players. One player plays the role of the Game Master, controlling the maze and its dynamics through a computer interface. The opposing player, immersed in a virtual reality environment, takes on the role of a player. The objective of the player is to escape the labyrinth by collecting keys and various items within the time limit, all while avoiding the traps set by the Game Master and evading monsters that lurk within. Credit to 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人.",
         hackathon : "A mobile app where user can use their phone cameras to scan the bill when they go to a trip and split it among the others. Credit to : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon.",
-        ivrc : "A VR project where users can enter a painting and paint within the world of the painting using provided objects. Credit to : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou"
+        ivrc : "A VR project where users can enter a painting and paint within the world of the painting using provided objects. Credit to : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou",
+        uroom : "Room reservation web system. This web system implements frontend, backend, and database for scalable development in the future. Credit to Junshu An."
     },
     footer : {
         contact : "Contact",

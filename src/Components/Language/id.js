@@ -139,7 +139,8 @@ const id ={
         vr_name : "脱出迷路",
         vr_desc : "Game VR 1 vs 1 antara dua pemain. Satu pemain memainkan peran sebagai Game Master, mengendalikan labirin komputer. Satu pemain lagi berperan sebagai pemain dalam labirin menggunakan kacamata VR. Tujuan pemain dalam labirin adalah untuk melarikan diri dari labirin dengan mengumpulkan kunci dan berbagai item dalam batas waktu, sambil menghindari jebakan yang disiapkan oleh Game Master dan menghindari monster yang mengintai di dalamnya. Berkolaborasi dengan : 西 滉平, 年藤 悠歩, 佐⼭ 幸翼, 玉置 文人.",
         hackathon : "Sebuah aplikasi handphone di mana pengguna dapat menggunakan kamera HP untuk meng-scan bill pada saat jalan-jalan dan dapat mengatur jumlah uang yang diperlukan masing-masing orang. Berkolaborasi dengan : 西 滉平, 吉崎 響, 和坂 優佑, 丸山 結, Buamanee Thanpimon.",
-        ivrc : "Projek VR di mana pengguna dapat masuk ke dalam lukisan dan melukis di dalam dunia lukisan dengan menggunakan benda-benda yang disediakan di dalam. Berkolaborasi dengan : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou"
+        ivrc : "Projek VR di mana pengguna dapat masuk ke dalam lukisan dan melukis di dalam dunia lukisan dengan menggunakan benda-benda yang disediakan di dalam. Berkolaborasi dengan : Junshu An, Buamanee Thanpimon, Toma Oya, Lee Gayeon, Chou",
+        uroom : "Sistem web untuk melakukan reservasi ruangan. Sistem web ini mengimplementasikan frontend, backend, dan database agar bisa dengan mudah dikembangkan ke depan. Berkolaborasi dengan Junshu An."
     },
     footer : {
         contact : "Kontak",
