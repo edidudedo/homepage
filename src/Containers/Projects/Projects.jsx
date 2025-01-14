@@ -9,9 +9,9 @@ import { LanguageContext } from '../../Components/Language/languageContext';
 const Projects = () => {
     const { translations } = useContext(LanguageContext);
     const ProjectList = [
-        {imgSrc : BadInterface, imgLink : "https://youtu.be/VUfU0RNuoGQ",  name : "Bad Interface", year : "2024", desc  : translations.project.bi_desc},
-        {imgSrc : Homepage, imgLink : "https://edidudedo.github.io/homepage/",  name : "Homepage", year : "2024", desc  : translations.project.hp_desc},
-        {imgSrc : ToDoList, imgLink : "https://www.youtube.com/watch?v=Z2Zp9fPNdrY",  name : "To-Do List Android App", year : "2024", desc  : translations.project.todo_desc},
+        {imgSrc : BadInterface, imgLink : "https://github.com/edidudedo/Bad_Interface",  name : "Bad Interface", year : "2024", desc  : translations.project.bi_desc},
+        {imgSrc : Homepage, imgLink : "https://github.com/edidudedo/homepage",  name : "Homepage", year : "2024", desc  : translations.project.hp_desc},
+        {imgSrc : ToDoList, imgLink : "https://github.com/edidudedo/ToDoAndroidApp",  name : "To-Do List Android App", year : "2024", desc  : translations.project.todo_desc},
         {imgSrc : Calculator, imgLink : "https://edidudedo.github.io/Calculator/",  name : "Calculator Web Service", year : "2023", desc  : translations.project.calculator_desc},
     ]
     return(
