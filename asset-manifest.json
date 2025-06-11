@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/homepage/static/css/main.f69ea448.css",
-    "main.js": "/homepage/static/js/main.1a75c8c4.js",
+    "main.js": "/homepage/static/js/main.b67b89ae.js",
     "static/js/453.14a68ee7.chunk.js": "/homepage/static/js/453.14a68ee7.chunk.js",
     "static/media/Profile3.jpg": "/homepage/static/media/Profile3.88b6e9321577bbd831fd.jpg",
     "static/media/Homepage.png": "/homepage/static/media/Homepage.95d3dad075f854306258.png",
@@ -38,15 +38,15 @@
     "static/media/Studying.png": "/homepage/static/media/Studying.259ca9b253d94cdc2c66.png",
     "static/media/Music.png": "/homepage/static/media/Music.6b6443ba7c8418b8552f.png",
     "static/media/logo.svg": "/homepage/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "static/media/school.svg": "/homepage/static/media/school.862b6e6bc436a6d76691dbe36ace7fb0.svg",
-    "static/media/work.svg": "/homepage/static/media/work.882163fe426ada068d2bf7b4003b967e.svg",
+    "static/media/school.svg": "/homepage/static/media/school.dbee2d510a8b54780a8ed2f1513f61bc.svg",
+    "static/media/work.svg": "/homepage/static/media/work.4dea010983e88fd0cac281966084eab9.svg",
     "index.html": "/homepage/index.html",
     "main.f69ea448.css.map": "/homepage/static/css/main.f69ea448.css.map",
-    "main.1a75c8c4.js.map": "/homepage/static/js/main.1a75c8c4.js.map",
+    "main.b67b89ae.js.map": "/homepage/static/js/main.b67b89ae.js.map",
     "453.14a68ee7.chunk.js.map": "/homepage/static/js/453.14a68ee7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f69ea448.css",
-    "static/js/main.1a75c8c4.js"
+    "static/js/main.b67b89ae.js"
   ]
 }
